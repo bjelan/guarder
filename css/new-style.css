@@ -1,0 +1,97 @@
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+html{
+    scroll-behavior: smooth;
+}
+section{
+    padding-top: 150px!important;
+    padding-bottom: 150px!important;
+}
+.info_section ul li a{
+    color: #ffffff;
+}
+#guards .box{
+    cursor: pointer;
+}
+#guards .detail-box{
+    transform: translateY(100%);
+    transition: all 0.3s ease-in-out;
+  
+}
+#guards .detail-box.active{
+    transform: translateY(0%);
+}
+#contact select{
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #000000;
+    height: 45px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.contactMethodRadio{
+    padding: 0px!important;
+    border: none;
+    outline: none;
+    color: #000000;
+    height: 15px!important;
+    width: 15px!important;
+
+    background-color: #ffffff;
+}
+#about .detail-box p{
+    transform: scale(0.3);
+    text-align: center;
+    transition: all 0.8s ease-in-out;
+}
+#about .detail-box p.active{
+    font-size: 16px;
+    transform: scale(1);
+    text-align: center;
+}
+#about img{
+    transform: translateX(-200%);
+    transition: all 0.8s ease-in-out;
+}
+#about img.active{
+    transform: translateX(0%);
+}
+#services .row .singleService{
+    z-index: -1;
+    transform: translateY(200%);
+}
+#services .row .singleService.active{
+    z-index: 1;
+    transform: translateY(0%);
+}
+#services .row .singleService:nth-child(1){
+    transition: all 1s ease-in-out;
+
+}
+#services .row .singleService:nth-child(2){
+    transition: all 1.4s ease-in-out;
+}
+#services .row .singleService:nth-child(3){
+    transition: all 1.7s ease-in-out;
+}
+.error{
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.success{
+    color: green;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
