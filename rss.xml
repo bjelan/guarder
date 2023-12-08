@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+    <title>Guarder | Home</title>
+    <link>https://bjelan.github.io/guarder/index.html</link>
+    <description>Notifications about changes in our site</description>
+    <item>
+        <title>Guarder - About us</title>
+        <link>https://bjelan.github.io/guarder/index.html#about</link>
+        <description>Changes in about us section</description>
+    </item>
+    <item>
+        <title>Guarder - Services</title>
+        <link>https://bjelan.github.io/guarder/index.html#services</link>
+        <description>Changes in services section</description>
+    </item>
+    <item>
+        <title>Guarder - Guards</title>
+        <link>https://bjelan.github.io/guarder/index.html#guards</link>
+        <description>Changes in guards section</description>
+    </item>
+    <item>
+        <title>Guarder - Testimonials</title>
+        <link>https://bjelan.github.io/guarder/index.html#testimonials</link>
+        <description>Changes in testimonials section</description>
+    </item>
+</channel>
+</rss>
